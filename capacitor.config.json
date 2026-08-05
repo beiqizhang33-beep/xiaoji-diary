@@ -1,0 +1,36 @@
+{
+  "appId": "com.xiaoji.diary",
+  "appName": "小记",
+  "webDir": ".",
+  "server": {
+    "androidScheme": "https",
+    "iosScheme": "https",
+    "cleartext": true
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 2000,
+      "launchAutoHide": true,
+      "backgroundColor": "#fffdf5",
+      "androidSplashResourceName": "splash",
+      "androidScaleType": "CENTER_CROP",
+      "showSpinner": false,
+      "splashFullScreen": false,
+      "splashImmersive": false
+    },
+    "StatusBar": {
+      "style": "dark",
+      "backgroundColor": "#fffdf5"
+    }
+  },
+  "ios": {
+    "contentInset": "always",
+    "scheme": "https",
+    "allowLinkPreview": false
+  },
+  "android": {
+    "allowMixedContent": true,
+    "captureInput": true,
+    "webContentsDebuggingEnabled": false
+  }
+}
