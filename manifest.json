@@ -2,7 +2,7 @@
   "name": "小记",
   "short_name": "小记",
   "description": "每日思考与体验记录",
-  "start_url": "/",
+  "start_url": "./",
   "display": "standalone",
   "background_color": "#fffdf5",
   "theme_color": "#ff8c42",

@@ -182,6 +182,17 @@
       border-radius: 10px;
       background: var(--paper-dark);
       animation: popIn 0.2s ease;
+      max-width: 100%;
+      overflow: hidden;
+      box-sizing: border-box;
+    }
+      display: none;
+      margin: 0 12px 14px;
+      padding: 10px;
+      border: 2px dashed var(--ink);
+      border-radius: 10px;
+      background: var(--paper-dark);
+      animation: popIn 0.2s ease;
     }
 
     .date-input-wrap.open {
@@ -202,6 +213,18 @@
 
     .date-input-wrap input[type="date"] {
       width: 100%;
+      max-width: 100%;
+      min-width: 0;
+      padding: 8px 10px;
+      border: 2px solid var(--ink);
+      border-radius: 8px;
+      font-family: inherit;
+      font-size: 15px;
+      background: var(--paper);
+      outline: none;
+      box-sizing: border-box;
+    }"date"] {
+      width: 100%;
       padding: 8px 10px;
       border: 2px solid var(--ink);
       border-radius: 8px;
@@ -212,6 +235,11 @@
     }
 
     .date-input-row {
+      display: flex;
+      gap: 8px;
+      margin-top: 8px;
+      max-width: 100%;
+    }
       display: flex;
       gap: 8px;
       margin-top: 8px;
